@@ -1,22 +1,42 @@
 MirasolWork:
   mtv:     
     name:        "MTV"
-    place:       "Latin America"
-    description: "Est ne vidit graece antiopam, detracto accusata no vix. Est an perfecto lobortis, an duis sententiae duo. Cu graeci facete nec, et possit noluisse est. At tollit consul option mel, pro an ludus verear periculis. Ius ea magna paulo aliquando. Habemus indoctum praesent ut qui. Docendi insolens dissentiet ex eum. Ne tempor docendi has, ex dicant putant ornatus nec. Impetus principes mnesarchum nam ut. Et vivendo elaboraret cum. Dolore menandri urbanitas pro ex. d accusamus intellegat has. Facilis menandri an pro. At eos ponderum lucilius adipiscing, id fabellas voluptaria pro. Modus oblique cum et. Labore admodum delectus quo cu, id populo aliquid eum. Ex his iudico consul laudem, cum utinam eripuit liberavisse ei, no quem atomorum vis."
     image:       ""
     link_video:  "http://www.youtube.com/watch?v=b2OUzvDURok"
+    Translation:
+      en:        
+        place:   "Latin America"
+        description: "Est ne vidit graece antiopam, detracto accusata no vix. Est an perfecto lobortis, an duis sententiae duo. Cu graeci facete nec, et possit noluisse est. At tollit consul option mel, pro an ludus verear periculis. Ius ea magna paulo aliquando. Habemus indoctum praesent ut qui. Docendi insolens dissentiet ex eum. Ne tempor docendi has, ex dicant putant ornatus nec. Impetus principes mnesarchum nam ut. Et vivendo elaboraret cum. Dolore menandri urbanitas pro ex. d accusamus intellegat has. Facilis menandri an pro. At eos ponderum lucilius adipiscing, id fabellas voluptaria pro. Modus oblique cum et. Labore admodum delectus quo cu, id populo aliquid eum. Ex his iudico consul laudem, cum utinam eripuit liberavisse ei, no quem atomorum vis."
+      es:        
+        place:   "America Latina"
+        description: "en español"
   knorr:     
     name:        "Knorr"
-    place:       "Argentina"
-    description: "Est ne vidit graece antiopam, detracto accusata no vix. Est an perfecto lobortis, an duis sententiae duo. Cu graeci facete nec, et possit noluisse est. At tollit consul option mel, pro an ludus verear periculis. Ius ea magna paulo aliquando. Habemus indoctum praesent ut qui. Docendi insolens dissentiet ex eum. Ne tempor docendi has, ex dicant putant ornatus nec. Impetus principes mnesarchum nam ut. Et vivendo elaboraret cum. Dolore menandri urbanitas pro ex. d accusamus intellegat has. Facilis menandri an pro. At eos ponderum lucilius adipiscing, id fabellas voluptaria pro. Modus oblique cum et. Labore admodum delectus quo cu, id populo aliquid eum. Ex his iudico consul laudem, cum utinam eripuit liberavisse ei, no quem atomorum vis."
     image:       ""
     link_video:  "http://player.vimeo.com/video/69790673"
+    Translation:
+      en:        
+        place:   "Argentina"
+        description: "Est ne vidit graece antiopam, detracto accusata no vix. Est an perfecto lobortis, an duis sententiae duo. Cu graeci facete nec, et possit noluisse est. At tollit consul option mel, pro an ludus verear periculis. Ius ea magna paulo aliquando. Habemus indoctum praesent ut qui. Docendi insolens dissentiet ex eum. Ne tempor docendi has, ex dicant putant ornatus nec. Impetus principes mnesarchum nam ut. Et vivendo elaboraret cum. Dolore menandri urbanitas pro ex. d accusamus intellegat has. Facilis menandri an pro. At eos ponderum lucilius adipiscing, id fabellas voluptaria pro. Modus oblique cum et. Labore admodum delectus quo cu, id populo aliquid eum. Ex his iudico consul laudem, cum utinam eripuit liberavisse ei, no quem atomorum vis."
+      es:        
+        place:   "Argentina"
+        description: "en español"
   unilever:     
     name:        "Unilever"
-    place:       "Argentina"
-    description: "Est ne vidit graece antiopam, detracto accusata no vix. Est an perfecto lobortis, an duis sententiae duo. Cu graeci facete nec, et possit noluisse est. At tollit consul option mel, pro an ludus verear periculis. Ius ea magna paulo aliquando. Habemus indoctum praesent ut qui. Docendi insolens dissentiet ex eum. Ne tempor docendi has, ex dicant putant ornatus nec. Impetus principes mnesarchum nam ut. Et vivendo elaboraret cum. Dolore menandri urbanitas pro ex. d accusamus intellegat has. Facilis menandri an pro. At eos ponderum lucilius adipiscing, id fabellas voluptaria pro. Modus oblique cum et. Labore admodum delectus quo cu, id populo aliquid eum. Ex his iudico consul laudem, cum utinam eripuit liberavisse ei, no quem atomorum vis."
+    Translation:
+      en:        
+        place:   "Argentina"
+        description: "Est ne vidit graece antiopam, detracto accusata no vix. Est an perfecto lobortis, an duis sententiae duo. Cu graeci facete nec, et possit noluisse est. At tollit consul option mel, pro an ludus verear periculis. Ius ea magna paulo aliquando. Habemus indoctum praesent ut qui. Docendi insolens dissentiet ex eum. Ne tempor docendi has, ex dicant putant ornatus nec. Impetus principes mnesarchum nam ut. Et vivendo elaboraret cum. Dolore menandri urbanitas pro ex. d accusamus intellegat has. Facilis menandri an pro. At eos ponderum lucilius adipiscing, id fabellas voluptaria pro. Modus oblique cum et. Labore admodum delectus quo cu, id populo aliquid eum. Ex his iudico consul laudem, cum utinam eripuit liberavisse ei, no quem atomorum vis."
+      es:        
+        place:   "Argentina"
+        description: "en español"
   food_first_tv:     
     name:        "Food First TV"
-    place:       "India"
-    description: "Est ne vidit graece antiopam, detracto accusata no vix. Est an perfecto lobortis, an duis sententiae duo. Cu graeci facete nec, et possit noluisse est. At tollit consul option mel, pro an ludus verear periculis. Ius ea magna paulo aliquando. Habemus indoctum praesent ut qui. Docendi insolens dissentiet ex eum. Ne tempor docendi has, ex dicant putant ornatus nec. Impetus principes mnesarchum nam ut. Et vivendo elaboraret cum. Dolore menandri urbanitas pro ex. d accusamus intellegat has. Facilis menandri an pro. At eos ponderum lucilius adipiscing, id fabellas voluptaria pro. Modus oblique cum et. Labore admodum delectus quo cu, id populo aliquid eum. Ex his iudico consul laudem, cum utinam eripuit liberavisse ei, no quem atomorum vis."
     link_video:  "http://player.vimeo.com/video/69790673"
+    Translation:
+      en:        
+        place:   "India"
+        description: "Est ne vidit graece antiopam, detracto accusata no vix. Est an perfecto lobortis, an duis sententiae duo. Cu graeci facete nec, et possit noluisse est. At tollit consul option mel, pro an ludus verear periculis. Ius ea magna paulo aliquando. Habemus indoctum praesent ut qui. Docendi insolens dissentiet ex eum. Ne tempor docendi has, ex dicant putant ornatus nec. Impetus principes mnesarchum nam ut. Et vivendo elaboraret cum. Dolore menandri urbanitas pro ex. d accusamus intellegat has. Facilis menandri an pro. At eos ponderum lucilius adipiscing, id fabellas voluptaria pro. Modus oblique cum et. Labore admodum delectus quo cu, id populo aliquid eum. Ex his iudico consul laudem, cum utinam eripuit liberavisse ei, no quem atomorum vis."
+      es:        
+        place:   "India"
+        description: "en español"

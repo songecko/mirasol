@@ -1,5 +1,8 @@
 MirasolWork:
-  actAs:          { Timestampable: ~ }
+  actAs:          
+    Timestampable: ~
+    I18n:
+      fields:     [ place, description ]
   columns:    
     name:         { type: string(255), notnull: true }
     place:        { type: string(255) }

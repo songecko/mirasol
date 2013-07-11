@@ -13,7 +13,7 @@ class homeActions extends sfActions
 	
 	public function executeIndex(sfWebRequest $request) 
 	{
-		/*if (!$request->getParameter('sf_culture'))
+		if (!$request->getParameter('sf_culture'))
 		{
 			if ($this->getUser()->isFirstRequest())
 			{
@@ -27,7 +27,7 @@ class homeActions extends sfActions
 			}
 		
 			$this->redirect('homepage_localized');
-		}*/
+		}
 		
 		$this->works = MirasolWorkTable::getInstance()->findAll();
 	}

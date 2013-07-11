@@ -29,7 +29,7 @@ generator:
       filter:
         class:              false
       form:    
-        display:            [name, place, description, image, link_video]
+        display:            [name, image, link_video, en, es]
       edit:
         title:              Editando el trabajo "%%name%%"        
       new:

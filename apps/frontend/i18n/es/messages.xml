@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2013-07-11T20:48:14Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>lenguaje</source>
+        <target>language</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>ABOUT US</source>
+        <target>SOBRE NOSOTROS</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>WORK</source>
+        <target>TRABAJO</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>CONTACT</source>
+        <target>CONTACTO</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>follow us on</source>
+        <target>seguinos en</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>work montage</source>
+        <target>work montage</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>The world is overstocked with hyperbolic messages. So, while everyone is screaming to be heard, we would rather whisper a password to people’s hearts.</source>
+        <target>The world is overstocked with hyperbolic messages. So, while everyone is screaming to be heard, we would rather whisper a password to people’s hearts.</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>Welcome &lt;span&gt;to Mirasol,&lt;/span&gt;</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>&lt;p&gt;a young independetly owned advertising &lt;/p&gt;
+						&lt;p&gt;agency built by a team of talented planners, &lt;/p&gt;
+						&lt;p&gt;creative directors and producers who love making&lt;/p&gt;
+						&lt;p&gt;fresh and sensitive communication that inspires people.&lt;/p&gt;
+						&lt;p&gt;Our experience in marketing planning, tv &amp; radio advertising&lt;/p&gt;
+						&lt;p&gt;and digital turns Mirasol into a game-change option&lt;/p&gt;
+						&lt;p&gt;for businesses that need a cost effective partner&lt;/p&gt;
+						&lt;p&gt;to plan, create and produce an integrated&lt;/p&gt;
+						&lt;p&gt;communication program.&lt;/p&gt;</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>Simple</source>
+        <target>Simple</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>Complicated ideas &lt;br /&gt;are bad ideas.&lt;br /&gt;Our work speaks for itself.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>Credible</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>We simply don’t enjoy &lt;br /&gt; making overpromising &lt;br /&gt; communication.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>Mirasol truly shines when it &lt;br /&gt;comes to connecting consumers&lt;br /&gt;with brands.</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>BORING STUFF</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>Copyright 2013</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>All Rights Reserved</source>
+        <target>Todos los derechos reservados</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>Site Map</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>Terms &amp; Conditions</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>Accessibility</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>Privacy Policy</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>Cookie Policy</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>CONTACT US</source>
+        <target>CONTACTANOS</target>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>Email</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>Name</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>Message</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>Send</source>
+        <target/>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

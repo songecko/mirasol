@@ -22,17 +22,21 @@
 					<img src="<?php echo image_path('logo.png')?>" alt="Logo Mirasol" />					
 				</div>
 				<div class="languageSelector">
-					<p>language: english / spanish</p>
+					<p>
+						<?php echo __('lenguaje') ?>:
+						<a href="<?php echo url_for('homepage_localized', array('sf_culture' => 'en')) ?>">english</a> /
+						<a href="<?php echo url_for('homepage_localized', array('sf_culture' => 'es')) ?>">español</a>						
+					</p>
 				</div>
 				<div class="menu">
 					<ul class="nav nav-pills">
-						<li class="aboutus"><a href="<?php echo url_for('homepage') ?>#aboutus">ABOUT US</a></li>
-						<li class="work"><a href="<?php echo url_for('homepage') ?>#work">WORK</a></li>
-						<li class="contact"><a href="<?php echo url_for('homepage') ?>#contact">CONTACT</a></li>
+						<li class="aboutus"><a href="<?php echo url_for('homepage') ?>#aboutus"><?php echo __('ABOUT US') ?></a></li>
+						<li class="work"><a href="<?php echo url_for('homepage') ?>#work"><?php echo __('WORK') ?></a></li>
+						<li class="contact"><a href="<?php echo url_for('homepage') ?>#contact"><?php echo __('CONTACT') ?></a></li>
 					</ul>
 					<div class="followUs">
 						<p>
-							<span>follow us on</span>
+							<span><?php echo __('follow us on') ?></span>
 							<a href="#"><img src="<?php echo image_path('fb-icon.png')?>" alt="Facebook" /></a>
 							<a href="#"><img src="<?php echo image_path('tw-icon.png')?>" alt="Twitter" /></a>
 						</p>
@@ -44,13 +48,13 @@
 			</section>
 			<div id="content">				
 				<section id="aboutUs">
-					<p class="sectionTitle">work montage</p>
+					<p class="sectionTitle"><?php echo __('work montage') ?></p>
 					<div class="dialog">
-						<p>The world is overstocked with hyperbolic messages. So, while everyone is screaming to be heard, we would rather whisper a password to people’s hearts.</p>
+						<p><?php echo __('The world is overstocked with hyperbolic messages. So, while everyone is screaming to be heard, we would rather whisper a password to people’s hearts.') ?></p>
 					</div>
-					<p class="welcome">Welcome <span>to Mirasol,</span></p>
+					<p class="welcome"><?php echo __('Welcome <span>to Mirasol,</span>') ?></p>
 					<div class="description">
-						<p>a young independetly owned advertising </p>
+						<?php echo __('<p>a young independetly owned advertising </p>
 						<p>agency built by a team of talented planners, </p>
 						<p>creative directors and producers who love making</p>
 						<p>fresh and sensitive communication that inspires people.</p>
@@ -58,19 +62,19 @@
 						<p>and digital turns Mirasol into a game-change option</p>
 						<p>for businesses that need a cost effective partner</p>
 						<p>to plan, create and produce an integrated</p>
-						<p>communication program.</p>
+						<p>communication program.</p>') ?>						
 					</div>
 					<div class="service simpleService">
-						<h4>Simple</h4>
-						<p>Complicated ideas <br />are bad ideas.<br />Our work speaks for itself.</p>
+						<h4><?php echo __('Simple') ?></h4>
+						<p><?php echo __('Complicated ideas <br />are bad ideas.<br />Our work speaks for itself.') ?></p>
 					</div>
 					<div class="service credibleService">
-						<h4>Credible</h4>
-						<p>We simply don’t enjoy <br /> making overpromising <br /> communication.</p>
+						<h4><?php echo __('Credible') ?></h4>
+						<p><?php echo __('We simply don’t enjoy <br /> making overpromising <br /> communication.') ?></p>
 					</div>
 					<div class="service meaningfulService">
-						<h4>Meaningful</h4>
-						<p>Mirasol truly shines when it <br />comes to connecting consumers<br />with brands.</p>
+						<h4><?php echo __('Simple') ?>Meaningful</h4>
+						<p><?php echo __('Mirasol truly shines when it <br />comes to connecting consumers<br />with brands.') ?></p>
 					</div>
 				</section>
 				<section id="work">					
@@ -78,22 +82,22 @@
 				</section>
 				<section id="contact">
 					<div class="copyright">
-						<h4>BORING STUFF</h4>
+						<h4><?php echo __('BORING STUFF') ?></h4>
 						<p>
-							Copyright 2013. 
+							<?php echo __('Copyright 2013') ?>. 
 							<br />
-							All Rights Reserved I <a href="#">Site Map</a> I<br /> <a href="#">Terms & Conditions</a> I <a href="#">Accessibility</a> I<br /><a href="#">Privacy Policy</a> I <a href="#">Cookie Policy</a>
+							<?php echo __('All Rights Reserved') ?> I <a href="#"><?php echo __('Site Map') ?></a> I<br /> <a href="#"><?php echo __('Terms & Conditions') ?></a> I <a href="#"><?php echo __('Accessibility') ?></a> I<br /><a href="#"><?php echo __('Privacy Policy') ?></a> I <a href="#"><?php echo __('Cookie Policy') ?></a>
 						</p>
 					</div>
 					<div class="contactUs">
-						<h4>CONTACT US</h4>
-						<p>Email: <a href="mailto:info@ideasmirasol.com.ar">info@ideasmirasol.com.ar</a> <br />New York: 908 342 2072<br />Buenos Aires: 15 6761 5559</p>
+						<h4><?php echo __('CONTACT US') ?></h4>
+						<p><?php echo __('Email') ?>: <a href="mailto:info@ideasmirasol.com.ar">info@ideasmirasol.com.ar</a> <br />New York: 908 342 2072<br />Buenos Aires: 15 6761 5559</p>
 					</div>
 					<form class="contactForm" action="#" method="post">
-						<input type="text" name="name" id="name" placeholder="Name" />
-						<input type="text" name="mail" id="mail" placeholder="Email" />
-						<textarea name="message" id="message" placeholder="Message"></textarea>
-						<button class="btn" type="submit">Send</button>
+						<input type="text" name="name" id="name" placeholder="<?php echo __('Name') ?>" />
+						<input type="text" name="mail" id="mail" placeholder="<?php echo __('Email') ?>" />
+						<textarea name="message" id="message" placeholder="<?php echo __('Message') ?>"></textarea>
+						<button class="btn" type="submit"><?php echo __('Send') ?></button>
 					</form>
 				</section>
 			</div>

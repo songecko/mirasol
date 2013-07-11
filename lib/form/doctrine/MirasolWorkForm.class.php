@@ -38,5 +38,9 @@ class MirasolWorkForm extends BaseMirasolWorkForm
   		));
   		
   		$this->validatorSchema['image_delete'] = new sfValidatorPass();
+  		
+  		$this->embedI18n(array('en', 'es'));
+  		$this->widgetSchema->setLabel('en', 'Ingles');
+  		$this->widgetSchema->setLabel('es', 'Español');
   }
 }

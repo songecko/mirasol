@@ -24,7 +24,7 @@ all:
     categories:
       CMS: 
         items:
-          Videos:
+          Trabajos:
             url:    mirasol_work
             image:  video.png
       Usuarios:
