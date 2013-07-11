@@ -1,0 +1,8 @@
+MirasolWork:
+  actAs:          { Timestampable: ~ }
+  columns:    
+    name:         { type: string(255), notnull: true }
+    place:        { type: string(255) }
+    description:  { type: clob }
+    image:        { type: string(255) }
+    link_video:   { type: string(255) }

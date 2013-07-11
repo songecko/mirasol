@@ -1,0 +1,13 @@
+mirasol_work:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                MirasolWork
+    module:               work
+    prefix_path:          /works
+    column:               id
+    with_wildcard_routes: true
+
+# default rules
+homepage:
+  url:   /
+  param: { module: sfAdminDash, action: dashboard }

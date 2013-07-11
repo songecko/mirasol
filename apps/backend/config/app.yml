@@ -1,0 +1,34 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+all:
+  sfImageTransformPlugin:
+    mime_type:
+      auto_detect:              true
+      library: gd_mime_type #  gd_mime_type (GD), Fileinfo (PECL), MIME_Type (PEAR)
+    font_dir: "%SF_PLUGINS_DIR%/sfImageTransformExtraPlugin/data/example-resources/fonts"
+      
+  sf_admin_dash:
+    web_dir:                      /sfAdminDashPlugin
+    image_dir:                    /sfAdminDashPlugin/images/icons/
+    default_image:                config.png
+    resize_mode:                  thumbnail
+    site:                         "Panel de administración de Mirasol"
+    include_path:                 true
+    include_jquery_no_conflict:   false
+    logout:                       true
+    login_route:                  @sf_guard_signin
+    logout_route:                 @sf_guard_signout
+    
+    categories:
+      CMS: 
+        items:
+          Videos:
+            url:    mirasol_work
+            image:  video.png
+      Usuarios:
+        items:
+          Usuarios:
+            url: sf_guard_user
+            image: users.png

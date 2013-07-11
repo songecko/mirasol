@@ -1,0 +1,36 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           MirasolWork
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          mirasol_work
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+    css:                   nothing   #setting the css to a placeholder 
+
+    config:
+      actions: ~
+      fields:
+        name:               { label: "Nombre" }
+        place:              { label: "Lugar" }
+        description:        { label: "Descripción" }
+        image:              { label: "Imagen", help: "En caso de que se deje vacio este campo, se utilizará la imagen de la vista previa del video" }
+        link_video:         { label: "Link del video", help: "Puede ser de Youtube o Vimeo"   }
+        updated_at:         { label: "Ultima modificación" }
+      list:
+        title:              "Trabajos"
+        display:            [name, place, _image, _link_video, updated_at]
+        sort:               [updated_at, desc]
+        max_per_page:       15
+      filter:
+        class:              false
+      form:    
+        display:            [name, place, description, image, link_video]
+      edit:
+        title:              Editando el trabajo "%%name%%"        
+      new:
+        title:              Nuevo trabajo

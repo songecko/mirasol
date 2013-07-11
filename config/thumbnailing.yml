@@ -1,0 +1,38 @@
+all:
+  .settings:
+    formats:
+      84x87_size:
+        quality:                75
+        mime_type:              image/jpg
+        transformations:
+          - { adapter: GD, transformation: thumbnail, param: { width: 84, height: 87, method: center }}
+      150x81_size:
+        quality:                75
+        mime_type:              image/jpg
+        transformations:
+          - { adapter: GD, transformation: thumbnail, param: { width: 150, height: 81, method: center }}
+      200x193_size:
+        quality:                75
+        mime_type:              image/jpg
+        transformations:
+          - { adapter: GD, transformation: thumbnail, param: { width: 150, height: 193, method: center }}
+      190x103_size:
+        quality:                75
+        mime_type:              image/jpg
+        transformations:
+          - { adapter: GD, transformation: thumbnail, param: { width: 190, height: 103, method: center }}
+      853x480_size:
+        quality:                75
+        mime_type:              image/jpg
+        transformations:
+          - { adapter: GD, transformation: thumbnail, param: { width: 224, height: 293, method: center }}
+      381x206_size:
+        quality:                75
+        mime_type:              image/jpg
+        transformations:
+          - { adapter: GD, transformation: thumbnail, param: { width: 381, height: 206, method: center }}
+      814x322_size:
+        quality:                75
+        mime_type:              image/jpg
+        transformations:
+          - { adapter: GD, transformation: thumbnail, param: { width: 814, height: 322, method: center }}
