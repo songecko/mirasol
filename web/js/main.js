@@ -57,4 +57,6 @@ $(document).ready(function()
 		$('#workDetails .video').attr('src', '');
 		$('#workDetails .image').attr('src', '');
 	});
+	
+	$("input,select,textarea").not("[type=submit]").jqBootstrapValidation();
 });

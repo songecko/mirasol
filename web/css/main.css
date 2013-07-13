@@ -240,6 +240,11 @@ section#contact .contactForm {
 	width: 243px;
 }
 
+section#contact .contactForm p {
+	font-size: 17px;
+	margin-top: 78px;
+}
+
 section#contact .contactForm h4 {
 	margin: 0 0 15px 0;
 }
@@ -298,7 +303,7 @@ section#contact .guillermo {
 }
 #works .workItem img {
 	max-height: 122px;
-	max-width: 260px;
+	max-width: 240px;
 }
 #works .carousel-control
 {

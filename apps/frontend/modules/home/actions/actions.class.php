@@ -29,6 +29,6 @@ class homeActions extends sfActions
 			$this->redirect('homepage_localized');
 		}
 		
-		$this->works = MirasolWorkTable::getInstance()->findAll();
+		$this->works = MirasolWorkTable::getInstance()->findAll();		
 	}
 }

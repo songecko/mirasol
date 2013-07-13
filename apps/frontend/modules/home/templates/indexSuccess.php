@@ -5,17 +5,17 @@
 		<?php $page = 0; ?>
 		<?php $i = 0;?>
 		<?php foreach ($works as $work): ?>
-		<?php   if($i % 5 == 0): $page++; ?>
+		<?php   if($i % 6 == 0): $page++; ?>
 		<div class="item<?php echo ($page == 1)?' active':'' ?>">
 		<?php   endif; ?>
 			<div class="workItem" data-work-description="<?php echo $work->getDescription() ?>" data-video-host="<?php echo $work->getVideoHost() ?>" data-video-id="<?php echo $work->getVideoId() ?>">
 				<h4><?php echo $work->getName() ?></h4>
 				<p class="place"><?php echo $work->getPlace() ?></p>
-				<p class="description"><?php echo truncate_text($work->getDescription(), 50) ?></p>
+				<p class="description"><?php echo truncate_text($work->getDescription(), 65) ?></p>
 				<img src="<?php echo $work->getPreferredImage(); ?>" alt="Mirasol Work" />
 			</div>
 		<?php $i++; ?>
-		<?php   if($i % 5 == 0):?>
+		<?php   if($i % 6 == 0):?>
 		</div>
 		<?php   endif; ?>
 		<?php endforeach; ?>

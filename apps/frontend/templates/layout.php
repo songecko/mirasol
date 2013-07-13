@@ -10,6 +10,8 @@
         <meta name="description" content="Mirasol ideas producers">
         <meta name="viewport" content="width=device-width">
 		
+		<link rel="icon" href="<?php echo public_path('favicon.ico')?>" type="image/x-icon" />
+		
 		<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link rel="stylesheet" href="<?php echo public_path('css/main.css') ?>" />
         
@@ -37,8 +39,8 @@
 					<div class="followUs">
 						<p>
 							<span><?php echo __('follow us on') ?></span>
-							<a href="#"><img src="<?php echo image_path('fb-icon.png')?>" alt="Facebook" /></a>
-							<a href="#"><img src="<?php echo image_path('tw-icon.png')?>" alt="Twitter" /></a>
+							<a href="https://www.facebook.com/gerardo.artusana" target="_blank"><img src="<?php echo image_path('fb-icon.png')?>" alt="Facebook" /></a>
+							<a href="https://twitter.com/IdeasMirasol" target="_blank"><img src="<?php echo image_path('tw-icon.png')?>" alt="Twitter" /></a>
 						</p>
 					</div>
 				</div>
@@ -73,7 +75,7 @@
 						<p><?php echo __('We simply don’t enjoy <br /> making overpromising <br /> communication.') ?></p>
 					</div>
 					<div class="service meaningfulService">
-						<h4><?php echo __('Simple') ?>Meaningful</h4>
+						<h4><?php echo __('Meaningful') ?></h4>
 						<p><?php echo __('Mirasol truly shines when it <br />comes to connecting consumers<br />with brands.') ?></p>
 					</div>
 				</section>
@@ -93,19 +95,15 @@
 						<h4><?php echo __('CONTACT US') ?></h4>
 						<p><?php echo __('Email') ?>: <a href="mailto:info@ideasmirasol.com.ar">info@ideasmirasol.com.ar</a> <br />New York: 908 342 2072<br />Buenos Aires: 15 6761 5559</p>
 					</div>
-					<form class="contactForm" action="#" method="post">
-						<input type="text" name="name" id="name" placeholder="<?php echo __('Name') ?>" />
-						<input type="text" name="mail" id="mail" placeholder="<?php echo __('Email') ?>" />
-						<textarea name="message" id="message" placeholder="<?php echo __('Message') ?>"></textarea>
-						<button class="btn" type="submit"><?php echo __('Send') ?></button>
-					</form>
+					<?php echo include_component('home', 'contactForm') ?>					
 				</section>
 			</div>
 		</div>        
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-		<script src="<?php echo public_path('js/jquery.scrollTo-1.4.3.1-min.js') ?>"></script>		
+		<script src="<?php echo public_path('js/jquery.scrollTo-1.4.3.1-min.js') ?>"></script>
+		<script src="<?php echo public_path('js/jqBootstrapValidation.js') ?>"></script>		
         <script src="<?php echo public_path('js/main.js') ?>"></script>
     </body>
 </html>
