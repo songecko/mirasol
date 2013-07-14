@@ -1,6 +1,6 @@
 <form class="contactForm" action="<?php echo url_for('homepage_localized', array('sf_culture' => $sf_user->getCulture())) ?>#contact" method="post">
 <?php if(isset($sended) && $sended == true): ?>
-<p class="sended"><?php echo ('Mensaje enviado con éxito, le responderemos a la brevedad.') ?></p>
+<p class="sended"><?php echo __('Mensaje enviado con éxito, le responderemos a la brevedad.') ?></p>
 <?php else: ?>
 	<?php echo $form['_csrf_token']->render() ?>
 	<?php echo $form['name']->render(array(

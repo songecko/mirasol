@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
 <xliff version="1.0">
-  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2013-07-11T20:48:14Z" product-name="messages">
+  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2013-07-14T19:55:21Z" product-name="messages">
     <header/>
     <body>
       <trans-unit id="1">
-        <source>lenguaje</source>
-        <target>language</target>
+        <source>language</source>
+        <target>lenguaje</target>
       </trans-unit>
       <trans-unit id="2">
         <source>ABOUT US</source>
@@ -30,11 +30,11 @@
       </trans-unit>
       <trans-unit id="7">
         <source>The world is overstocked with hyperbolic messages. So, while everyone is screaming to be heard, we would rather whisper a password to people’s hearts.</source>
-        <target>The world is overstocked with hyperbolic messages. So, while everyone is screaming to be heard, we would rather whisper a password to people’s hearts.</target>
+        <target>El mundo está lleno de mensajes hiperbólicos. Por eso, mientras los demás gritan para que los escuchen, nosotros preferimos susurrar al corazón de la gente.</target>
       </trans-unit>
       <trans-unit id="8">
         <source>Welcome &lt;span&gt;to Mirasol,&lt;/span&gt;</source>
-        <target/>
+        <target>Bienvenidos &lt;span&gt;a Mirasol,&lt;/span&gt;</target>
       </trans-unit>
       <trans-unit id="9">
         <source>&lt;p&gt;a young independetly owned advertising &lt;/p&gt;
@@ -46,7 +46,16 @@
 						&lt;p&gt;for businesses that need a cost effective partner&lt;/p&gt;
 						&lt;p&gt;to plan, create and produce an integrated&lt;/p&gt;
 						&lt;p&gt;communication program.&lt;/p&gt;</source>
-        <target/>
+        <target>&lt;p&gt;una agencia de publicidad independiente &lt;/p&gt;
+						&lt;p&gt;fundada por un grupo de talentosos planners, &lt;/p&gt;
+						&lt;p&gt;creativos y productores que aman hacer&lt;/p&gt;
+						&lt;p&gt;comunicación divertida y sensible para inspirar a la gente.&lt;/p&gt;
+						&lt;p&gt;Nuestra experiencia en marketing estratégico, tv, radio y online&lt;/p&gt;
+						&lt;p&gt;hace de Mirasol una opción de cambio&lt;/p&gt;
+						&lt;p&gt;para marcas y empresas que necesitan un socio estratégico&lt;/p&gt;
+						&lt;p&gt;para planificar, crear y producir un plan&lt;/p&gt;
+						&lt;p&gt;de comunicación integral.&lt;/p&gt;
+        </target>
       </trans-unit>
       <trans-unit id="10">
         <source>Simple</source>
@@ -54,71 +63,87 @@
       </trans-unit>
       <trans-unit id="11">
         <source>Complicated ideas &lt;br /&gt;are bad ideas.&lt;br /&gt;Our work speaks for itself.</source>
-        <target/>
+        <target>Las ideas complicadas &lt;br /&gt;son malas ideas.&lt;br /&gt; Nuestro trabajo habla por sí mismo.</target>
       </trans-unit>
       <trans-unit id="12">
         <source>Credible</source>
-        <target/>
+        <target>Creíble</target>
       </trans-unit>
       <trans-unit id="13">
         <source>We simply don’t enjoy &lt;br /&gt; making overpromising &lt;br /&gt; communication.</source>
-        <target/>
+        <target>No nos gusta hacer comunicación&lt;br /&gt; que promete demasiado.</target>
       </trans-unit>
       <trans-unit id="14">
-        <source>Mirasol truly shines when it &lt;br /&gt;comes to connecting consumers&lt;br /&gt;with brands.</source>
-        <target/>
+        <source>Meaningful</source>
+        <target>Relevante</target>
       </trans-unit>
       <trans-unit id="15">
+        <source>Mirasol truly shines when it &lt;br /&gt;comes to connecting consumers&lt;br /&gt;with brands.</source>
+        <target>Mirasol se luce a la hora&lt;br /&gt; de conectar a las marcas&lt;br /&gt; con sus consumidores</target>
+      </trans-unit>
+      <trans-unit id="16">
         <source>BORING STUFF</source>
         <target/>
       </trans-unit>
-      <trans-unit id="16">
+      <trans-unit id="17">
         <source>Copyright 2013</source>
         <target/>
       </trans-unit>
-      <trans-unit id="17">
+      <trans-unit id="18">
         <source>All Rights Reserved</source>
         <target>Todos los derechos reservados</target>
       </trans-unit>
-      <trans-unit id="18">
-        <source>Site Map</source>
-        <target/>
-      </trans-unit>
       <trans-unit id="19">
-        <source>Terms &amp; Conditions</source>
-        <target/>
+        <source>Site Map</source>
+        <target>Mapa del sitio</target>
       </trans-unit>
       <trans-unit id="20">
-        <source>Accessibility</source>
-        <target/>
+        <source>Terms &amp; Conditions</source>
+        <target>Términos &amp; Condiciones</target>
       </trans-unit>
       <trans-unit id="21">
-        <source>Privacy Policy</source>
-        <target/>
+        <source>Accessibility</source>
+        <target>Accesibilidad</target>
       </trans-unit>
       <trans-unit id="22">
+        <source>Privacy Policy</source>
+        <target>Políticas de Privacidad</target>
+      </trans-unit>
+      <trans-unit id="23">
         <source>Cookie Policy</source>
         <target/>
       </trans-unit>
-      <trans-unit id="23">
+      <trans-unit id="24">
         <source>CONTACT US</source>
         <target>CONTACTANOS</target>
       </trans-unit>
-      <trans-unit id="24">
-        <source>Email</source>
-        <target/>
-      </trans-unit>
       <trans-unit id="25">
-        <source>Name</source>
-        <target/>
+        <source>Email</source>
+        <target>Email</target>
       </trans-unit>
       <trans-unit id="26">
-        <source>Message</source>
-        <target/>
+        <source>Name</source>
+        <target>Nombre</target>
       </trans-unit>
       <trans-unit id="27">
+        <source>Message</source>
+        <target>Mensaje</target>
+      </trans-unit>
+      <trans-unit id="28">
         <source>Send</source>
+        <target>Enviar</target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>Mensaje enviado con éxito, le responderemos a la brevedad.</source>
         <target/>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>Not valid field</source>
+        <target>No es un campo válido</target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>Recent work</source>
+        <target>Trabajos recientes</target>
       </trans-unit>
     </body>
   </file>

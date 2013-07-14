@@ -25,7 +25,7 @@
 				</div>
 				<div class="languageSelector">
 					<p>
-						<?php echo __('lenguaje') ?>:
+						<?php echo __('language') ?>:
 						<a href="<?php echo url_for('homepage_localized', array('sf_culture' => 'en')) ?>">english</a> /
 						<a href="<?php echo url_for('homepage_localized', array('sf_culture' => 'es')) ?>">español</a>						
 					</p>

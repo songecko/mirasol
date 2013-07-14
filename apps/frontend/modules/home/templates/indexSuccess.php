@@ -1,4 +1,4 @@
-<p class="sectionTitle">Recent work</p>
+<p class="sectionTitle"><?php echo __('Recent work') ?></p>
 <div id="works" class="carousel slide">
 	<!-- Carousel items -->
 	<div class="carousel-inner">
