@@ -26,7 +26,7 @@
       </trans-unit>
       <trans-unit id="6">
         <source>work montage</source>
-        <target>work montage</target>
+        <target>video de trabajos</target>
       </trans-unit>
       <trans-unit id="7">
         <source>The world is overstocked with hyperbolic messages. So, while everyone is screaming to be heard, we would rather whisper a password to people’s hearts.</source>
@@ -83,7 +83,7 @@
       </trans-unit>
       <trans-unit id="16">
         <source>BORING STUFF</source>
-        <target/>
+        <target>INFORMACIÓN ABURRIDA</target>
       </trans-unit>
       <trans-unit id="17">
         <source>Copyright 2013</source>
@@ -134,8 +134,8 @@
         <target>Enviar</target>
       </trans-unit>
       <trans-unit id="29">
-        <source>Mensaje enviado con éxito, le responderemos a la brevedad.</source>
-        <target/>
+        <source>Your Message was sent successfully. We will be back to you as soon as possible.</source>
+        <target>Mensaje enviado con éxito, le responderemos a la brevedad.</target>
       </trans-unit>
       <trans-unit id="30">
         <source>Not valid field</source>
