@@ -21,7 +21,7 @@ class homeComponents extends sfComponents
 		
 				// and start up to setting up:
 				$subject = '[Mirasol] Contacto desde la web';
-				$to  = "songecko@gmail.com";
+				$to  = "info@ideasmirasol.com.ar";
 				$from_mail = strip_tags($values['email']);
 		
 				$body = get_partial('home/mail_template', array('values' => $values));

@@ -84,11 +84,10 @@
 				</section>
 				<section id="contact">
 					<div class="copyright">
-						<h4><?php echo __('BORING STUFF') ?></h4>
 						<p>
 							<?php echo __('Copyright 2013') ?>. 
 							<br />
-							<?php echo __('All Rights Reserved') ?> I <a href="#"><?php echo __('Site Map') ?></a> I<br /> <a href="#"><?php echo __('Terms & Conditions') ?></a> I <a href="#"><?php echo __('Accessibility') ?></a> I<br /><a href="#"><?php echo __('Privacy Policy') ?></a> I <a href="#"><?php echo __('Cookie Policy') ?></a>
+							<?php echo __('All Rights Reserved') ?>
 						</p>
 					</div>
 					<div class="contactUs">
