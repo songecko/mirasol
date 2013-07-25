@@ -56,7 +56,7 @@
 					</div>
 					<p class="welcome"><?php echo __('Welcome <span>to Mirasol,</span>') ?></p>
 					<div class="description">
-						<?php echo __('<p>a young independetly owned advertising </p>
+						<?php echo __('<p>a young independently owned advertising </p>
 						<p>agency built by a team of talented planners, </p>
 						<p>creative directors and producers who love making</p>
 						<p>fresh and sensitive communication that inspires people.</p>
